@@ -31,7 +31,7 @@ public class TeleportAbility : MonoBehaviour
 
         if (Time.time > nextFireTime)
         {
-            if (Input.GetButtonDown("Fire1"))
+            if (Input.GetButtonDown("Fire2"))
             {
                 Vector3 screenCenter = new Vector3(Screen.width / 2, Screen.height / 2, 0);
                 Ray ray = Camera.main.ScreenPointToRay(screenCenter);
